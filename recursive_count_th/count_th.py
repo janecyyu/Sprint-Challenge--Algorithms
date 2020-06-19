@@ -14,5 +14,5 @@ def count_th(word):
     # check first two characters
     if word[0:len_th] == target:
         return count_th(word[1:])+1
-
+    #  if not found, continue finding
     return count_th(word[1:])
