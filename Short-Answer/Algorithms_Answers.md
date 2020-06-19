@@ -6,7 +6,7 @@ a) O(n)
 
 b) O(n log n)
 
-c) O(1)
+c) O(n)
 
 ## Exercise II
 
