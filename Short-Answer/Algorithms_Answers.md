@@ -2,7 +2,7 @@
 
 ## Exercise I
 
-a) O(log n)
+a) O(n)
 
 b) O(n log n)
 
