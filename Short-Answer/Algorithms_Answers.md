@@ -12,7 +12,7 @@ c) O(n)
 
 solution1:
 f from 1(first floor)
-if egg not broken, then we know the floor
+if egg not broken, go up, and find the broken egg floor, then we know the answer
 \*runtime O(n)
 
 solution2:
