@@ -12,5 +12,16 @@ c) O(1)
 
 if f(floor) greater than egg's position:
 egg broken, so eggs' quantity minus one
-if f less than egg's position:
-egg not broken, so return
+
+solution1:
+f from 1(first floor)
+if egg not broken, then we know the floor
+\*runtime O(n)
+
+solution2:
+look from f/2,
+
+while egg broken, means too high or equal, so go down, current floor divide 2 again
+
+while egg not broke, go up to check if the egg broke, (f + current floor)/2
+if egg broke, the answer will be current floor -1
